@@ -11,51 +11,44 @@ body {
 /*Navigation*/
 
 header {
-  background-color: #e5868f;
-  opacity: 0.76;
+  background-color: #ffffff;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 20px;
   padding-left: 20px;
   display: flex;
   justify-content: space-between;
-}
-
-.logo {
-  max-width: 5%;
-  display: flex;
-  align-items: center;
+  flex-direction: row;
+  justify-content: end;
 }
 
 nav ul {
   display: flex;
-  flex-direction: row;
-  column-gap: 25px;
+  column-gap: 40px;
   list-style-type: none;
 }
 
 a {
-  color: black;
+  color: #467251;
   text-decoration: none;
+  font-size: 20px;
 }
 
 a:hover {
-  color: white;
+  color: #304f38;
 }
 
-/*Ueberschrift*/
+/*Titel*/
 
 .titel {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  justify-content: center;
+  color: white;
+  font-size: 60px;
   display: flex;
-  align-items: center;
-}
-
-.wave {
-  max-width: 5%;
-  margin-right: 15px;
+  background-image: url(beach\ background.jpg);
+  background-image: fixed;
+  background-size: cover;
+  padding-right: 150px;
+  padding-left: 150px;
 }
 
 /*Abschnitte*/
