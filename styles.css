@@ -11,15 +11,14 @@ body {
 /*Navigation*/
 
 header {
-  background-color: #ffffff;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 20px;
-  padding-left: 20px;
+  background-color: white;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   justify-content: end;
+  position: fixed;
+  width: 100%;
 }
 
 nav ul {
@@ -45,7 +44,16 @@ a:hover {
   font-size: 60px;
   background-image: url(beach\ background.jpg);
   background-size: cover;
-  padding: 50px 150px;
+  background-attachment: fixed;
+  padding: 100px 150px;
+  border: 2px solid black;
+}
+
+.wave {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid black;
+
 }
 
 /*Abschnitte*/
