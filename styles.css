@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #6ecbc2;
+  background-color: #71a38b;
   font-family: "roboto";
   margin: 0px;
 }
@@ -29,7 +29,7 @@ nav ul {
 }
 
 a {
-  color: #467251;
+  color: #71a38b;
   text-decoration: none;
   font-size: 20px;
 }
@@ -43,12 +43,9 @@ a:hover {
 .titel {
   color: white;
   font-size: 60px;
-  display: flex;
   background-image: url(beach\ background.jpg);
-  background-image: fixed;
   background-size: cover;
-  padding-right: 150px;
-  padding-left: 150px;
+  padding: 50px 150px;
 }
 
 /*Abschnitte*/
