@@ -28,13 +28,13 @@ nav ul {
 }
 
 a {
-  color: #71a38b;
+  color: #bb9c7c;
   text-decoration: none;
   font-size: 20px;
 }
 
 a:hover {
-  color: #304f38;
+  text-decoration: underline;
 }
 
 /*Titel*/
@@ -45,15 +45,18 @@ a:hover {
   background-image: url(beach\ background.jpg);
   background-size: cover;
   background-attachment: fixed;
-  padding: 100px 150px;
   border: 2px solid black;
+}
+
+h1 {
+  padding: 100px 150px;
 }
 
 .wave {
   width: 100%;
   background-color: transparent;
   border: 2px solid black;
-
+  padding: 0px;
 }
 
 /*Abschnitte*/
